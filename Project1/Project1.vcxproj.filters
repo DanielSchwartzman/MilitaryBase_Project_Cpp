@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\General classes">
+      <UniqueIdentifier>{e1cbea81-8e38-4584-b355-fa0292f62bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Base classes">
+      <UniqueIdentifier>{e5870f39-9563-479d-85a3-697d95704427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Soldier Classes">
+      <UniqueIdentifier>{97792482-73f3-4def-9e6d-49d558796b7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Class definition">
+      <UniqueIdentifier>{b1854437-550d-4417-a86b-bc5528b28b91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Soldier.h">
+      <Filter>Header Files\Soldier Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Officer.h">
+      <Filter>Header Files\Soldier Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="NCO.h">
+      <Filter>Header Files\Soldier Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Enlisted.h">
+      <Filter>Header Files\Soldier Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Base.h">
+      <Filter>Header Files\Base classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Header Files\General classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Worker.h">
+      <Filter>Header Files\General classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MilitaryCivilian.h">
+      <Filter>Header Files\Soldier Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Header Files\Base classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.h">
+      <Filter>Header Files\Base classes</Filter>
+    </ClInclude>
+    <ClInclude Include="generalFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="switchCases.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Address.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Base.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Enlisted.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="MilitaryCivilian.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="NCO.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Officer.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Soldier.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Worker.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="Vehicle.cpp">
+      <Filter>Source Files\Class definition</Filter>
+    </ClCompile>
+    <ClCompile Include="generalFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="switchCases.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IDF_Project.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
